@@ -1,0 +1,21 @@
+{
+  "name": "resolutons-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "webpack --mode production"
+  },
+  "dependencies": {
+    "ramda": "^0.28.0",
+    "test-ramdas": "^0.0.1"
+  },
+  "resolutions": {
+    "ramda": "0.28.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.10.0"
+  }
+}
